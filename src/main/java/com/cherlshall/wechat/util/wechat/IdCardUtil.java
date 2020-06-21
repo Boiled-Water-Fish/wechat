@@ -24,7 +24,7 @@ import java.util.Map;
 public class IdCardUtil {
     public static Map<String, String> getUserInfo(String imageUrl) {
         try {
-            Credential cred = new Credential("AKIDBVa9etOay74kQpjrV9XfYgcIhoiYHxdB", "VllY5PTHF0XoGTYO1EArJp6C2b4KI1LS");
+            Credential cred = new Credential("", "");
             HttpProfile httpProfile = new HttpProfile();
             httpProfile.setEndpoint("ocr.tencentcloudapi.com");
             ClientProfile clientProfile = new ClientProfile();
